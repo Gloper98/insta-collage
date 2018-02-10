@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	padding: 9em 1.7em 0 1.7em;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to bottom right, #E8324A, #862DAD);
+  color: #fff;
+	text-align: center;
+}
+
+.mgn-font {
+  margin-top: 1em;
+  margin-bottom: 0;
+	font-size: 11.3px;
+}
+
+.white-letter {
+	color: white;
+}
+
+.first-section {
+  margin-bottom: 5.5em;
+}
+
+.logo-image {
+	filter: invert(100%);
+	width: 14em;
+	height: auto;
+}
+
+/* Color de fuente-Placeholder*/
+.opacity::-webkit-input-placeholder { color: #fff; }  /* WebKit, Blink, Edge */
+.opacity:-moz-placeholder { color: #fff; }  /* Mozilla Firefox 4 to 18 */
+.opacity::-moz-placeholder { color: #fff; }  /* Mozilla Firefox 19+ */
+.opacity:-ms-input-placeholder { color: #fff; }  /* Internet Explorer 10-11 */
+.opacity::-ms-input-placeholder { color: #fff; }  /* Microsoft Edge */
+
+.btn-redirect {
+  border-color: #fff;
+  background: transparent;
+}
+
+.google-icon {
+  margin-right: 1.6em;
+}
+
+.formulary {
+  margin-bottom: 2rem;
+}
+
+.lineOne::after, .lineOne::before  {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background: #fff;
+  margin-bottom: 5px;
+}
+.lineOne::before{
+  margin-right: 0.1em;
+}
+
+.redirect {
+  color: #fff;
+  font-weight: 800;
+}
+
+.input-container-mrg-btm {
+  margin-bottom: 1em;
+}
+
+.button-redirect {
+  border: 0;
+  background: none;
+}
+
+.opacity {
+  background: rgba(255, 255, 255, 0.2)
+}
+
+.focus-input {
+  border: none;
+  padding: 1.6em;
+}
+
+
