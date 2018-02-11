@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+.input-container {
+	width: 16em;
+	margin-top: 0.6em;
+	margin-left: 5vw;
+}
+
+.header-insta {
+	margin-top: 5em;
+}
+
+.outline {
+	outline:  1px solid red;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.hidden-input {
+	background-color: none;
+	border: none;
+	outline: none;
+}
+
+.fa-cloud-upload-alt {
+	font-size: 29px;
+}
+
+.grey-letter {
+	color: #636C72;
+}
+
+.fa-instagram, .fa-compass, .fa-heart, .fa-user {
+	font-size: 25px;
+}
+
+.logo-image {
+	width: 11em;
+	height: auto;
+}
+
+.dropzone {
+  border: 2px dashed grey;
+	width: 100%;
+	height: 10em;
+	color: #ccc;
+	line-height: 10em;
+	text-align: center;
+}
+
+.picture-gallery {
+    height: 40em;
+    width: 100%;
+	  border: 2px dashed grey;
+}
+
+.pictures {
+	width: 25em;
+	height: auto;
+}
+
+
