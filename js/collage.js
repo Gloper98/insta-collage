@@ -1,12 +1,14 @@
 onload = (() => {
-  $('.pictures').draggable({
+	let acquire = $;
+	let pic ='.pictures';
+	/*let pictures = document.getElementsByClassName('pictures');
+	console.log([...pictures]);*/
+  acquire(pic).draggable({
     addClasses: false
   });
 
-  $('.pictures').draggable(
-    {
+  acquire(pic).draggable({
+			opacity: 0.20,
       containment: "#picture-gallery",
-      opacity: 0.35,
-    }
-  );
+    });
 })();

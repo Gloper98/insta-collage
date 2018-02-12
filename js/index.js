@@ -10,8 +10,6 @@ onload = (() => {
   let userInputLogin = document.getElementById('user-input-login');
   let passwordInputLogin = document.getElementById('password-input-login');
 	
-	
-	
 	let activeBtn = (event) => {
 	  userLogin = userInputLogin.value;
 	  passwordLogin = passwordInputLogin.value;
